@@ -1,0 +1,6 @@
+@Distillery.RapidPay.Assestment_HostAddress = http://localhost:5124
+
+GET {{Distillery.RapidPay.Assestment_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

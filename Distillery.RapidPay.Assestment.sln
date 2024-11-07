@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distillery.RapidPay.CardManagementApi", "src\Distillery.RapidPay.WebApi\Distillery.RapidPay.CardManagementApi.csproj", "{2295C117-BAD7-4AC3-AC7E-3196F779B6A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{482CE88E-365B-43ED-BDB3-42213ED5EF8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{252C0A8D-E3BF-47E3-AB87-A2C7310B0F66}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B13A9E57-10AB-41B3-82E4-77C2B8844EF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E0C60909-1FE8-43F9-9416-40A4C9422573}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CardManagement", "CardManagement", "{068A15FC-4F07-476B-8CC3-353B0EAD7A0C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distillery.RapidPay.Domain", "src\Distillery.RapidPay.Domain\Distillery.RapidPay.Domain.csproj", "{180B3417-C764-4F8D-91A3-C1EA4274E181}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distillery.RapidPay.Application", "src\Distillery.RapidPay.Application\Distillery.RapidPay.Application.csproj", "{BD251230-31E1-4B08-A55F-502E04D61927}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distillery.RapidPay.Infrastructure", "src\Distillery.RapidPay.Infrastructure\Distillery.RapidPay.Infrastructure.csproj", "{D10E5FD7-DD8D-473C-BEA7-97D0B6D15A3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2295C117-BAD7-4AC3-AC7E-3196F779B6A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2295C117-BAD7-4AC3-AC7E-3196F779B6A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2295C117-BAD7-4AC3-AC7E-3196F779B6A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2295C117-BAD7-4AC3-AC7E-3196F779B6A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{180B3417-C764-4F8D-91A3-C1EA4274E181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{180B3417-C764-4F8D-91A3-C1EA4274E181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{180B3417-C764-4F8D-91A3-C1EA4274E181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{180B3417-C764-4F8D-91A3-C1EA4274E181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD251230-31E1-4B08-A55F-502E04D61927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD251230-31E1-4B08-A55F-502E04D61927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD251230-31E1-4B08-A55F-502E04D61927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD251230-31E1-4B08-A55F-502E04D61927}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D10E5FD7-DD8D-473C-BEA7-97D0B6D15A3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D10E5FD7-DD8D-473C-BEA7-97D0B6D15A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D10E5FD7-DD8D-473C-BEA7-97D0B6D15A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D10E5FD7-DD8D-473C-BEA7-97D0B6D15A3B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2295C117-BAD7-4AC3-AC7E-3196F779B6A5} = {068A15FC-4F07-476B-8CC3-353B0EAD7A0C}
+		{B13A9E57-10AB-41B3-82E4-77C2B8844EF1} = {068A15FC-4F07-476B-8CC3-353B0EAD7A0C}
+		{068A15FC-4F07-476B-8CC3-353B0EAD7A0C} = {482CE88E-365B-43ED-BDB3-42213ED5EF8B}
+		{180B3417-C764-4F8D-91A3-C1EA4274E181} = {B13A9E57-10AB-41B3-82E4-77C2B8844EF1}
+		{BD251230-31E1-4B08-A55F-502E04D61927} = {B13A9E57-10AB-41B3-82E4-77C2B8844EF1}
+		{D10E5FD7-DD8D-473C-BEA7-97D0B6D15A3B} = {B13A9E57-10AB-41B3-82E4-77C2B8844EF1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1245CCC-212F-460D-8E22-22DE5420FC4D}
+	EndGlobalSection
+EndGlobal
