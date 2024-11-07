@@ -1,0 +1,11 @@
+global using MediatR;
+global using FluentValidation;
+global using AutoMapper;
+global using AutoMapper.QueryableExtensions;
+global using Ardalis.Result;
+global using Distillery.RapidPay.Application.Common.Contracts;
+global using Distillery.RapidPay.Application.Common.Loggers;
+global using Distillery.RapidPay.Application.Common.Validators;
+global using Distillery.RapidPay.Domain.Entities;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.Logging;
